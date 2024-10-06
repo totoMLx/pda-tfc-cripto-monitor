@@ -4,8 +4,8 @@ import os
 from datetime import datetime
 from sqlalchemy import create_engine
 from urllib.parse import quote_plus
-from dotenv import load_dotenv
-load_dotenv()
+#from dotenv import load_dotenv
+#load_dotenv()
 
 def get_env_variable(var_name):
     """Devolver las variables de entorno"""
