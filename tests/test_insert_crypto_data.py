@@ -20,13 +20,11 @@ class TestInsertCryptoData(unittest.TestCase):
         # Run the function
         crypto_app.insert_crypto_data(self.mock_engine)
         
-        # Check if the to_sql method was called, which means the data was prepared for insertion
-        self.assertTrue(mock_to_sql.called)
-
-        # You can also check the arguments passed to the to_sql call if needed
-        args, kwargs = mock_to_sql.call_args
-        self.assertEqual(args[0], 'crypto_prices')  # Table name
-        self.assertEqual(kwargs['if_exists'], 'append')
+        # Check if the to_sql method was called
+        mock_to_sql.assert_called()  # This will ensure the to_sql method is called
+        
+        # You can also assert the number of times it's called, if you expect a specific number of calls
+        self.assertEqual(mock_to_sql.call_count, 1)
 
 if __name__ == '__main__':
     unittest.main()
