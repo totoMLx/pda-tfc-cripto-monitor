@@ -11,8 +11,7 @@ El objetivo principal del proyecto es crear un ETL a partir de APIs OpenSource (
 Todo el codigo para el funcionamiento del proyecto se encuentra en la carpeta 'airflow'.
 A continuación se adjunta diagrama de funcionamiento:
 
-[imagen]
-
+![etl](https://github.com/user-attachments/assets/4e154c63-bbca-4cca-a028-dcdbadb94101)
 
 El script `dag_etl.py` ejectura la funcion insert_crypto_data de `etl.py` la cual se encarga de buscar la data en las APIs correspondientes, transformar la data y enviarla a la base de datos de Redshift. Las funciones complementarias para que el proceso sea posible, se encuentran en `utils.py`.
 
