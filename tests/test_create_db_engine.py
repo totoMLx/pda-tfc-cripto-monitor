@@ -6,14 +6,14 @@ import os
 
 # Añadir el directorio 'scripts' al Python path
 sys.path.append(os.path.join(os.path.dirname(__file__), '../airflow/scripts'))
-import utils  # Asegúrate de que utils está bien importado
+import utils
 
 class TestCreateDbEngine(unittest.TestCase):
 
     def setUp(self):
         self.mock_engine = MagicMock(spec=Engine)
 
-    @patch('utils.create_db_engine', return_value=MagicMock(spec=Engine))  # Cambiado el patch
+    @patch('utils.create_engine')  # Aquí cambiamos el patch a SQLAlchemy's create_engine
     @patch('utils.get_env_variable')
     def test_create_db_engine(self, mock_get_env_variable, mock_create_engine):
         # Configurar los valores de retorno del mock de las variables de entorno
@@ -23,7 +23,9 @@ class TestCreateDbEngine(unittest.TestCase):
         engine = utils.create_db_engine()
 
         # Verificar que la función `create_engine` fue llamada correctamente
-        mock_create_engine.assert_called_once_with("postgresql://user:pass@host:5439/db")
+        mock_create_engine.assert_called_once_with(
+            'postgresql://user:pass@host:5439/db'
+        )
 
 if __name__ == '__main__':
     unittest.main()
