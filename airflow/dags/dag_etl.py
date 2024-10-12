@@ -7,7 +7,7 @@ import os
 # Ensuring the scripts directory is in the path so that our module can be imported
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'scripts'))
 
-from crypto_app import insert_crypto_data  # Import the function
+from etl import insert_crypto_data  # Import the function
 
 default_args = {
     'owner': 'airflow',
