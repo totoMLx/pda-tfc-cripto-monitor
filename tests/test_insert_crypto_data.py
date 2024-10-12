@@ -18,7 +18,7 @@ class TestInsertCryptoData(unittest.TestCase):
     @patch('pandas.DataFrame.to_sql')  # Mock the to_sql method to avoid actual DB operations
     def test_insert_crypto_data(self, mock_to_sql, mock_get_price, mock_get_symbols):
         # Run the function
-        etl.insert_crypto_data(self.mock_engine)
+        etl.insert_crypto_data()
         
         # Check if the to_sql method was called
         mock_to_sql.assert_called()  # This will ensure the to_sql method is called

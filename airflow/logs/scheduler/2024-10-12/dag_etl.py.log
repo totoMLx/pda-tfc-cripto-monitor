@@ -600,3 +600,38 @@
 [2024-10-12T20:02:42.918+0000] {logging_mixin.py:190} INFO - [2024-10-12T20:02:42.918+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-10-12T20:02:42.933+0000] {logging_mixin.py:190} INFO - [2024-10-12T20:02:42.933+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_crypto_data_redshift to 2024-10-12 00:00:00+00:00, run_after=2024-10-13 00:00:00+00:00
 [2024-10-12T20:02:42.941+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl.py took 0.336 seconds
+[2024-10-12T20:03:13.111+0000] {processor.py:186} INFO - Started process (PID=1811) to work on /opt/airflow/dags/dag_etl.py
+[2024-10-12T20:03:13.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl.py for tasks to queue
+[2024-10-12T20:03:13.116+0000] {logging_mixin.py:190} INFO - [2024-10-12T20:03:13.115+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl.py
+[2024-10-12T20:03:13.384+0000] {processor.py:925} INFO - DAG(s) 'insert_crypto_data_redshift' retrieved from /opt/airflow/dags/dag_etl.py
+[2024-10-12T20:03:13.409+0000] {logging_mixin.py:190} INFO - [2024-10-12T20:03:13.408+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-12T20:03:13.429+0000] {logging_mixin.py:190} INFO - [2024-10-12T20:03:13.429+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_crypto_data_redshift to 2024-10-12 00:00:00+00:00, run_after=2024-10-13 00:00:00+00:00
+[2024-10-12T20:03:13.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl.py took 0.341 seconds
+[2024-10-12T20:03:43.829+0000] {processor.py:186} INFO - Started process (PID=1819) to work on /opt/airflow/dags/dag_etl.py
+[2024-10-12T20:03:43.830+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl.py for tasks to queue
+[2024-10-12T20:03:43.833+0000] {logging_mixin.py:190} INFO - [2024-10-12T20:03:43.832+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl.py
+[2024-10-12T20:03:44.116+0000] {processor.py:925} INFO - DAG(s) 'insert_crypto_data_redshift' retrieved from /opt/airflow/dags/dag_etl.py
+[2024-10-12T20:03:44.141+0000] {logging_mixin.py:190} INFO - [2024-10-12T20:03:44.140+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-12T20:03:44.158+0000] {logging_mixin.py:190} INFO - [2024-10-12T20:03:44.158+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_crypto_data_redshift to 2024-10-12 00:00:00+00:00, run_after=2024-10-13 00:00:00+00:00
+[2024-10-12T20:03:44.167+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl.py took 0.357 seconds
+[2024-10-12T20:04:14.451+0000] {processor.py:186} INFO - Started process (PID=1827) to work on /opt/airflow/dags/dag_etl.py
+[2024-10-12T20:04:14.453+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl.py for tasks to queue
+[2024-10-12T20:04:14.455+0000] {logging_mixin.py:190} INFO - [2024-10-12T20:04:14.454+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl.py
+[2024-10-12T20:04:14.744+0000] {processor.py:925} INFO - DAG(s) 'insert_crypto_data_redshift' retrieved from /opt/airflow/dags/dag_etl.py
+[2024-10-12T20:04:14.763+0000] {logging_mixin.py:190} INFO - [2024-10-12T20:04:14.762+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-12T20:04:14.778+0000] {logging_mixin.py:190} INFO - [2024-10-12T20:04:14.777+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_crypto_data_redshift to 2024-10-12 00:00:00+00:00, run_after=2024-10-13 00:00:00+00:00
+[2024-10-12T20:04:14.786+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl.py took 0.346 seconds
+[2024-10-12T20:04:45.022+0000] {processor.py:186} INFO - Started process (PID=1835) to work on /opt/airflow/dags/dag_etl.py
+[2024-10-12T20:04:45.023+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl.py for tasks to queue
+[2024-10-12T20:04:45.025+0000] {logging_mixin.py:190} INFO - [2024-10-12T20:04:45.024+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl.py
+[2024-10-12T20:04:45.562+0000] {processor.py:925} INFO - DAG(s) 'insert_crypto_data_redshift' retrieved from /opt/airflow/dags/dag_etl.py
+[2024-10-12T20:04:45.666+0000] {logging_mixin.py:190} INFO - [2024-10-12T20:04:45.662+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-12T20:04:45.745+0000] {logging_mixin.py:190} INFO - [2024-10-12T20:04:45.744+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_crypto_data_redshift to 2024-10-12 00:00:00+00:00, run_after=2024-10-13 00:00:00+00:00
+[2024-10-12T20:04:45.800+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl.py took 0.786 seconds
+[2024-10-12T20:05:16.337+0000] {processor.py:186} INFO - Started process (PID=1843) to work on /opt/airflow/dags/dag_etl.py
+[2024-10-12T20:05:16.339+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl.py for tasks to queue
+[2024-10-12T20:05:16.341+0000] {logging_mixin.py:190} INFO - [2024-10-12T20:05:16.341+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl.py
+[2024-10-12T20:05:16.744+0000] {processor.py:925} INFO - DAG(s) 'insert_crypto_data_redshift' retrieved from /opt/airflow/dags/dag_etl.py
+[2024-10-12T20:05:16.777+0000] {logging_mixin.py:190} INFO - [2024-10-12T20:05:16.776+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-12T20:05:16.814+0000] {logging_mixin.py:190} INFO - [2024-10-12T20:05:16.813+0000] {dag.py:4180} INFO - Setting next_dagrun for insert_crypto_data_redshift to 2024-10-12 00:00:00+00:00, run_after=2024-10-13 00:00:00+00:00
+[2024-10-12T20:05:16.825+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl.py took 0.526 seconds
