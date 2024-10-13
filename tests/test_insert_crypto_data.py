@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch, MagicMock
 import os
-import etl  # Asegúrate de importar tu módulo etl
+import etl 
 
 class TestInsertCryptoData(unittest.TestCase):
 
@@ -19,10 +19,10 @@ class TestInsertCryptoData(unittest.TestCase):
     })  # Mock valor dólar
     @patch.dict(os.environ, {'NINJA_API_KEY': 'fake_api_key'})  # Mock variables de entorno
     def test_insert_crypto_data(self, mock_get_dolar, mock_get_crypto, mock_create_engine, mock_append_to_table):
-        # Ejecutar la función que queremos probar
+        
         etl.insert_crypto_data()
 
-        # Verificar que las funciones mockeadas se llamaron correctamente
+        # Verifica que las funciones mockeadas se llamaron correctamente
         mock_create_engine.assert_called_once()  # Verifica que se creó el engine
         self.assertEqual(mock_get_crypto.call_count, 3)  # Verifica que se llamaron los precios de 3 criptos
         mock_append_to_table.assert_called()  # Verifica que los datos se guardaron en la DB

@@ -30,7 +30,7 @@ def get_crypto_price(ninja_key, symbol):
         return symbol, None
 
 def get_dolar_price():
-    """Ejemplo de función para obtener el precio del dólar"""
+    """API para obtener el precio del dolar blue al momento de la consulta"""
     try:
         response = requests.get("https://dolarapi.com/v1/dolares/blue")
         return response.json()
