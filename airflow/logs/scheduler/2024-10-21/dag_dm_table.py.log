@@ -1,99 +1,320 @@
-[2024-10-21T00:41:11.761+0000] {processor.py:186} INFO - Started process (PID=31) to work on /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:41:11.764+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
-[2024-10-21T00:41:11.768+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:11.767+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:41:13.325+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:41:13.665+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.664+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:create_update_dm_crypto_table
-[2024-10-21T00:41:13.700+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.700+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:create_update_dm_crypto_table
-[2024-10-21T00:41:13.715+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.713+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:create_update_dm_crypto_table
-[2024-10-21T00:41:13.734+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.733+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:create_update_dm_crypto_table
-[2024-10-21T00:41:13.753+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.752+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:create_update_dm_crypto_table
-[2024-10-21T00:41:13.765+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.765+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:create_update_dm_crypto_table
-[2024-10-21T00:41:13.772+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.772+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:create_update_dm_crypto_table
-[2024-10-21T00:41:13.774+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.773+0000] {dag.py:3239} INFO - Sync 1 DAGs
-[2024-10-21T00:41:13.792+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.791+0000] {dag.py:3262} INFO - Creating ORM DAG for create_update_dm_crypto_table
-[2024-10-21T00:41:13.823+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.822+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
-[2024-10-21T00:41:13.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 2.110 seconds
-[2024-10-21T00:41:44.037+0000] {processor.py:186} INFO - Started process (PID=42) to work on /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:41:44.039+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
-[2024-10-21T00:41:44.057+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:44.055+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:41:44.436+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:41:44.450+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:44.450+0000] {dag.py:3239} INFO - Sync 1 DAGs
-[2024-10-21T00:41:44.461+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:44.461+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
-[2024-10-21T00:41:44.469+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.442 seconds
-[2024-10-21T00:42:14.822+0000] {processor.py:186} INFO - Started process (PID=54) to work on /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:42:14.823+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
-[2024-10-21T00:42:14.827+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:42:14.826+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:42:15.339+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:42:15.372+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:42:15.371+0000] {dag.py:3239} INFO - Sync 1 DAGs
-[2024-10-21T00:42:15.385+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:42:15.385+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
-[2024-10-21T00:42:15.396+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.581 seconds
-[2024-10-21T00:42:46.151+0000] {processor.py:186} INFO - Started process (PID=66) to work on /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:42:46.155+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
-[2024-10-21T00:42:46.158+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:42:46.157+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:42:46.548+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:42:46.562+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:42:46.562+0000] {dag.py:3239} INFO - Sync 1 DAGs
-[2024-10-21T00:42:46.575+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:42:46.575+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
-[2024-10-21T00:42:46.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.439 seconds
-[2024-10-21T00:43:16.998+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:43:17.001+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
-[2024-10-21T00:43:17.008+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:43:17.007+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:43:17.705+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:43:17.721+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:43:17.721+0000] {dag.py:3239} INFO - Sync 1 DAGs
-[2024-10-21T00:43:17.735+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:43:17.734+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
-[2024-10-21T00:43:17.743+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.755 seconds
-[2024-10-21T00:43:48.100+0000] {processor.py:186} INFO - Started process (PID=89) to work on /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:43:48.102+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
-[2024-10-21T00:43:48.107+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:43:48.106+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:43:48.510+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:43:48.524+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:43:48.524+0000] {dag.py:3239} INFO - Sync 1 DAGs
-[2024-10-21T00:43:48.547+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:43:48.546+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-21 00:00:00+00:00, run_after=2024-10-22 00:00:00+00:00
-[2024-10-21T00:43:48.556+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.466 seconds
-[2024-10-21T00:44:18.901+0000] {processor.py:186} INFO - Started process (PID=101) to work on /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:44:18.903+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
-[2024-10-21T00:44:18.906+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:44:18.906+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:44:19.374+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:44:19.406+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:44:19.406+0000] {dag.py:3239} INFO - Sync 1 DAGs
-[2024-10-21T00:44:19.428+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:44:19.428+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-21 00:00:00+00:00, run_after=2024-10-22 00:00:00+00:00
-[2024-10-21T00:44:19.444+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.550 seconds
-[2024-10-21T00:44:49.868+0000] {processor.py:186} INFO - Started process (PID=113) to work on /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:44:49.870+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
-[2024-10-21T00:44:49.879+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:44:49.876+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:44:50.303+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:44:50.318+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:44:50.318+0000] {dag.py:3239} INFO - Sync 1 DAGs
-[2024-10-21T00:44:50.330+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:44:50.330+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-21 00:00:00+00:00, run_after=2024-10-22 00:00:00+00:00
-[2024-10-21T00:44:50.338+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.481 seconds
-[2024-10-21T00:45:20.933+0000] {processor.py:186} INFO - Started process (PID=125) to work on /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:45:20.935+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
-[2024-10-21T00:45:20.939+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:45:20.938+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:45:21.430+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:45:21.442+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:45:21.442+0000] {dag.py:3239} INFO - Sync 1 DAGs
-[2024-10-21T00:45:21.455+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:45:21.454+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-21 00:00:00+00:00, run_after=2024-10-22 00:00:00+00:00
-[2024-10-21T00:45:21.464+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.538 seconds
-[2024-10-21T00:45:51.905+0000] {processor.py:186} INFO - Started process (PID=137) to work on /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:45:51.907+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
-[2024-10-21T00:45:51.913+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:45:51.913+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:45:52.462+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:45:52.476+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:45:52.476+0000] {dag.py:3239} INFO - Sync 1 DAGs
-[2024-10-21T00:45:52.490+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:45:52.490+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-21 00:00:00+00:00, run_after=2024-10-22 00:00:00+00:00
-[2024-10-21T00:45:52.499+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.609 seconds
-[2024-10-21T00:46:23.040+0000] {processor.py:186} INFO - Started process (PID=148) to work on /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:46:23.043+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
-[2024-10-21T00:46:23.050+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:46:23.049+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:46:23.564+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:46:23.582+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:46:23.581+0000] {dag.py:3239} INFO - Sync 1 DAGs
-[2024-10-21T00:46:23.601+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:46:23.601+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-21 00:00:00+00:00, run_after=2024-10-22 00:00:00+00:00
-[2024-10-21T00:46:23.616+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.593 seconds
-[2024-10-21T00:46:54.025+0000] {processor.py:186} INFO - Started process (PID=160) to work on /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:46:54.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
-[2024-10-21T00:46:54.031+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:46:54.030+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:46:55.335+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:46:55.382+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:46:55.382+0000] {dag.py:3239} INFO - Sync 1 DAGs
-[2024-10-21T00:46:55.403+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:46:55.403+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-21 00:00:00+00:00, run_after=2024-10-22 00:00:00+00:00
-[2024-10-21T00:46:55.425+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 1.408 seconds
-[2024-10-21T00:47:25.937+0000] {processor.py:186} INFO - Started process (PID=171) to work on /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:47:25.939+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
-[2024-10-21T00:47:25.944+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:47:25.943+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:47:26.645+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
-[2024-10-21T00:47:26.661+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:47:26.661+0000] {dag.py:3239} INFO - Sync 1 DAGs
-[2024-10-21T00:47:26.675+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:47:26.675+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-21 00:00:00+00:00, run_after=2024-10-22 00:00:00+00:00
-[2024-10-21T00:47:26.685+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.759 seconds
+[2024-10-21T01:54:17.276+0000] {processor.py:186} INFO - Started process (PID=115) to work on /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T01:54:17.277+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
+[2024-10-21T01:54:17.278+0000] {logging_mixin.py:190} INFO - [2024-10-21T01:54:17.277+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T01:54:17.279+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T01:54:20.956+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:175 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.957+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:222 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.960+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:1151 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.961+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:1248 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.964+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:1271 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.967+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:1406 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.969+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:1439 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.972+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:1495 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.974+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:1683 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.977+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:1750 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.979+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:2025 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.981+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:2110 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.982+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:2407 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.983+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:2468 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.987+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:3987 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.988+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:4096 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.989+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:4127 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.991+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:4186 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.992+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:4225 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.993+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:4275 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.995+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:5209 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.996+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:5265 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.997+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:5302 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:20.998+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:5358 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.000+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:6437 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.001+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:6497 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.002+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:6538 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.003+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:6588 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.005+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:7023 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.007+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:7096 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.008+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:7267 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.009+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:7333 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.009+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:7378 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.010+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:7440 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.012+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:8222 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.013+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:8282 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.013+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:8322 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.015+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:8368 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.017+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:9475 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.018+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:9531 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.020+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:10532 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.021+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:10588 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.021+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:10625 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.022+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:10680 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.023+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:10923 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.024+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:10979 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.024+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:11016 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.025+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:11072 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.026+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:11231 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.026+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:11282 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.027+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:11420 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.027+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:11477 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.029+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:12300 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.030+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:12383 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.030+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:12439 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.031+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:12524 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.032+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:13019 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.032+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:13090 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.033+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:13139 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.033+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:13200 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.035+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:13886 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.036+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:13941 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.036+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:13977 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.036+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:14026 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.037+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:14318 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.038+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:14388 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.038+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:14436 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.039+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:14492 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.040+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:14744 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.041+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:14810 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.042+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:15415 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.042+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:15482 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.043+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:15527 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.043+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:15578 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.044+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:15897 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.045+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:15953 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.048+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:16617 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.048+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:16674 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.049+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:16712 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.051+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:16780 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.053+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:16932 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.054+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:16988 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.057+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:17025 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.060+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:17090 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.064+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:17228 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.071+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:17284 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.081+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:20234 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.084+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:20289 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.087+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:20862 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.088+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:20921 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.094+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:20960 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.096+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:21014 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.102+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:21316 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.104+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:21377 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.106+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:21418 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.107+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:21478 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.109+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:21612 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.109+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:21668 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.112+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:22155 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.113+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:22218 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.115+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:22559 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.117+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:22626 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.119+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:22671 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.120+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:22722 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.121+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:23061 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.122+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:23128 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.124+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:23173 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.126+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:23224 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.127+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:23511 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.128+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:23567 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.129+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:23968 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.130+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:24018 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.135+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:25343 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.137+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:25398 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.141+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:25434 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.142+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:25485 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.145+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:26723 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.146+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:26779 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.147+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:27121 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.148+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:27177 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.149+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:27461 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.150+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:27517 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.152+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:28053 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.153+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:28109 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.154+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:28536 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.154+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:28592 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.155+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:28932 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.156+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:28982 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.160+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:30727 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.160+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:30783 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.162+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:31296 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.162+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:31344 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.163+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:31617 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.164+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:31673 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.165+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:32120 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.166+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:32176 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.167+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:32339 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.168+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:32395 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.168+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:32432 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.169+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:32487 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.171+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:33502 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.172+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:33558 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.173+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:33869 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.173+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:33928 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.174+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:33967 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.174+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:34021 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.176+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:34739 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.177+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:34806 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.177+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:34852 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.178+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:34908 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.183+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:36915 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.186+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:36971 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.189+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:37417 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.189+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:37473 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.190+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:37845 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.192+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:37901 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.193+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:38208 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.194+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:38264 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.197+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:38301 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.201+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:38351 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.206+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:38690 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.208+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:38758 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.213+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:39141 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.217+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:39192 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.220+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:39419 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.221+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:39487 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.222+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:39683 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.224+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:39738 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.226+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:40019 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.228+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:40084 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.233+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:41138 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.235+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:41196 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.237+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:41359 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.239+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:41415 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.240+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:41452 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.242+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:41507 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.245+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:41875 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.246+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:41947 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.253+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:42441 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.254+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:42497 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.255+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:42534 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.256+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:42590 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.257+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:42627 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.258+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:42692 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.260+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:43020 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.263+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:43079 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.264+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:43118 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.266+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:43168 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.269+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:43514 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.270+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:43573 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.272+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:43612 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.273+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:43666 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.274+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:43989 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.277+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:44045 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.278+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:44386 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.280+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:44442 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.288+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:45003 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.289+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:45058 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.291+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:45444 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.291+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:45499 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.294+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:46042 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.295+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:46098 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.296+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:46702 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.297+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:46758 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.298+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:47000 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.299+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:47050 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.301+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:47648 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.301+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:47704 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.302+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:48113 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.303+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:48190 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.303+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:48244 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.304+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:48321 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.307+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:49499 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.307+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:49555 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.309+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:49932 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.309+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50002 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.310+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50052 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.310+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50107 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.311+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50379 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.311+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50449 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.312+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50499 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.312+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50554 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.313+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50590 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.313+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50660 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.314+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50710 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.315+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:50770 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.315+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:51046 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.316+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:51116 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.317+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:51166 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.317+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:51226 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.318+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:51485 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.319+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:51540 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.320+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:51787 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.321+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:51851 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.321+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:51895 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.322+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:51958 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.322+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:52212 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.323+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:52275 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.324+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:52463 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.324+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:52532 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.326+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:53040 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.326+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:53111 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.327+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:53334 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.327+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:53407 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.329+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:53961 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.329+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:54059 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.330+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:54322 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.331+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:54398 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.332+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:55022 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.333+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:55078 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.334+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:55310 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.334+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:55365 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.336+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:56196 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.337+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:56248 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.338+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:56508 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.338+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:56564 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.339+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:57087 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.340+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:57147 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.341+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:57187 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.341+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:57237 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.342+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:57560 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.343+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:57620 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.343+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:57660 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.344+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:57710 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.347+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:59106 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.348+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:59162 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.348+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:59316 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.349+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:59396 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.350+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:59452 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.350+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:59535 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.351+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:59594 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.351+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:59677 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.352+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:59733 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.353+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:59818 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.363+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:60639 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.369+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:60722 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.372+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:60778 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.376+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:60863 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.381+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:61167 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.385+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:61250 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.390+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:61306 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.393+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:61387 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.397+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:61696 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.398+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:61752 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.400+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:61954 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.401+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:61992 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.406+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:62660 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.407+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:62715 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.417+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:63882 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.426+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:63946 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.429+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:64582 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.431+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:64674 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.433+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:64940 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.434+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:65014 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.435+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:65117 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.435+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:65199 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.436+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:65385 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.437+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:65441 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.439+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:65874 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.440+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:65950 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.441+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:66003 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.442+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:66087 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.444+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:66686 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.445+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:66779 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.448+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:66918 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.450+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:66964 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.460+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:67735 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.463+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:67791 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.466+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:68043 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.469+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:68097 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.474+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:68532 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:21.476+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/azure/synapse/artifacts/models/_models_py3.py:68588 SyntaxWarning: invalid escape sequence '\d'
+[2024-10-21T01:54:22.241+0000] {logging_mixin.py:190} INFO - [2024-10-21T01:54:22.241+0000] {taskinstance.py:3312} ERROR - {'DAG Id': 'create_update_dm_crypto_table', 'Task Id': 'wait_for_transform_load', 'Run Id': 'scheduled__2024-10-20T00:00:00+00:00', 'Hostname': '2e57320be020', 'External Executor Id': '703f0e1d-ab4e-4b06-bae5-86266ff88ab4'}
+[2024-10-21T01:54:22.260+0000] {logging_mixin.py:190} INFO - [2024-10-21T01:54:22.260+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=create_update_dm_crypto_table, task_id=wait_for_transform_load, run_id=scheduled__2024-10-20T00:00:00+00:00, execution_date=20241020T000000, start_date=20241021T004321, end_date=20241021T015422
+[2024-10-21T01:54:22.271+0000] {logging_mixin.py:190} INFO - [2024-10-21T01:54:22.271+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: create_update_dm_crypto_table.wait_for_transform_load scheduled__2024-10-20T00:00:00+00:00 [up_for_retry]> in state up_for_retry
+[2024-10-21T01:54:22.271+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 5.001 seconds
