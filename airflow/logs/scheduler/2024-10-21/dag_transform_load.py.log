@@ -1,0 +1,91 @@
+[2024-10-21T00:41:11.773+0000] {processor.py:186} INFO - Started process (PID=32) to work on /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:41:11.774+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_transform_load.py for tasks to queue
+[2024-10-21T00:41:11.777+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:11.777+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:41:13.326+0000] {processor.py:925} INFO - DAG(s) 'transform_load_crypto_data' retrieved from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:41:13.398+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.396+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:41:13.450+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.450+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_load_crypto_data to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-21T00:41:13.484+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_transform_load.py took 1.720 seconds
+[2024-10-21T00:41:44.037+0000] {processor.py:186} INFO - Started process (PID=43) to work on /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:41:44.039+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_transform_load.py for tasks to queue
+[2024-10-21T00:41:44.057+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:44.055+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:41:44.436+0000] {processor.py:925} INFO - DAG(s) 'transform_load_crypto_data' retrieved from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:41:44.450+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:44.450+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:41:44.461+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:44.461+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_load_crypto_data to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-21T00:41:44.469+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_transform_load.py took 0.439 seconds
+[2024-10-21T00:42:14.825+0000] {processor.py:186} INFO - Started process (PID=55) to work on /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:42:14.826+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_transform_load.py for tasks to queue
+[2024-10-21T00:42:14.828+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:42:14.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:42:15.339+0000] {processor.py:925} INFO - DAG(s) 'transform_load_crypto_data' retrieved from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:42:15.372+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:42:15.371+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:42:15.385+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:42:15.385+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_load_crypto_data to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-21T00:42:15.396+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_transform_load.py took 0.575 seconds
+[2024-10-21T00:42:46.151+0000] {processor.py:186} INFO - Started process (PID=67) to work on /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:42:46.155+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_transform_load.py for tasks to queue
+[2024-10-21T00:42:46.158+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:42:46.157+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:42:46.548+0000] {processor.py:925} INFO - DAG(s) 'transform_load_crypto_data' retrieved from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:42:46.562+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:42:46.562+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:42:46.575+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:42:46.575+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_load_crypto_data to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-21T00:42:46.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_transform_load.py took 0.437 seconds
+[2024-10-21T00:43:16.998+0000] {processor.py:186} INFO - Started process (PID=79) to work on /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:43:17.001+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_transform_load.py for tasks to queue
+[2024-10-21T00:43:17.008+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:43:17.007+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:43:17.705+0000] {processor.py:925} INFO - DAG(s) 'transform_load_crypto_data' retrieved from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:43:17.721+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:43:17.721+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:43:17.735+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:43:17.734+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_load_crypto_data to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-21T00:43:17.743+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_transform_load.py took 0.752 seconds
+[2024-10-21T00:43:48.100+0000] {processor.py:186} INFO - Started process (PID=90) to work on /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:43:48.102+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_transform_load.py for tasks to queue
+[2024-10-21T00:43:48.107+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:43:48.106+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:43:48.510+0000] {processor.py:925} INFO - DAG(s) 'transform_load_crypto_data' retrieved from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:43:48.524+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:43:48.524+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:43:48.547+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:43:48.546+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_load_crypto_data to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-21T00:43:48.556+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_transform_load.py took 0.466 seconds
+[2024-10-21T00:44:18.901+0000] {processor.py:186} INFO - Started process (PID=102) to work on /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:44:18.903+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_transform_load.py for tasks to queue
+[2024-10-21T00:44:18.906+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:44:18.906+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:44:19.374+0000] {processor.py:925} INFO - DAG(s) 'transform_load_crypto_data' retrieved from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:44:19.406+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:44:19.405+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:44:19.425+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:44:19.425+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_load_crypto_data to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-21T00:44:19.442+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_transform_load.py took 0.548 seconds
+[2024-10-21T00:44:49.868+0000] {processor.py:186} INFO - Started process (PID=114) to work on /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:44:49.870+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_transform_load.py for tasks to queue
+[2024-10-21T00:44:49.879+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:44:49.876+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:44:50.303+0000] {processor.py:925} INFO - DAG(s) 'transform_load_crypto_data' retrieved from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:44:50.318+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:44:50.318+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:44:50.330+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:44:50.330+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_load_crypto_data to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-21T00:44:50.338+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_transform_load.py took 0.479 seconds
+[2024-10-21T00:45:20.933+0000] {processor.py:186} INFO - Started process (PID=126) to work on /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:45:20.935+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_transform_load.py for tasks to queue
+[2024-10-21T00:45:20.939+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:45:20.938+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:45:21.430+0000] {processor.py:925} INFO - DAG(s) 'transform_load_crypto_data' retrieved from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:45:21.442+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:45:21.442+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:45:21.455+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:45:21.454+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_load_crypto_data to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-21T00:45:21.464+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_transform_load.py took 0.538 seconds
+[2024-10-21T00:45:51.905+0000] {processor.py:186} INFO - Started process (PID=138) to work on /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:45:51.907+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_transform_load.py for tasks to queue
+[2024-10-21T00:45:51.913+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:45:51.913+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:45:52.462+0000] {processor.py:925} INFO - DAG(s) 'transform_load_crypto_data' retrieved from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:45:52.476+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:45:52.476+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:45:52.490+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:45:52.490+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_load_crypto_data to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-21T00:45:52.499+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_transform_load.py took 0.609 seconds
+[2024-10-21T00:46:23.040+0000] {processor.py:186} INFO - Started process (PID=149) to work on /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:46:23.043+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_transform_load.py for tasks to queue
+[2024-10-21T00:46:23.050+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:46:23.049+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:46:23.564+0000] {processor.py:925} INFO - DAG(s) 'transform_load_crypto_data' retrieved from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:46:23.582+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:46:23.582+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:46:23.601+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:46:23.601+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_load_crypto_data to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-21T00:46:23.616+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_transform_load.py took 0.589 seconds
+[2024-10-21T00:46:54.025+0000] {processor.py:186} INFO - Started process (PID=161) to work on /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:46:54.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_transform_load.py for tasks to queue
+[2024-10-21T00:46:54.031+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:46:54.030+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:46:55.334+0000] {processor.py:925} INFO - DAG(s) 'transform_load_crypto_data' retrieved from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:46:55.382+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:46:55.382+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:46:55.403+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:46:55.403+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_load_crypto_data to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-21T00:46:55.426+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_transform_load.py took 1.407 seconds
+[2024-10-21T00:47:25.938+0000] {processor.py:186} INFO - Started process (PID=172) to work on /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:47:25.939+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_transform_load.py for tasks to queue
+[2024-10-21T00:47:25.944+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:47:25.943+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:47:26.645+0000] {processor.py:925} INFO - DAG(s) 'transform_load_crypto_data' retrieved from /opt/airflow/dags/dag_transform_load.py
+[2024-10-21T00:47:26.661+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:47:26.661+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:47:26.675+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:47:26.675+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_load_crypto_data to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-21T00:47:26.685+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_transform_load.py took 0.755 seconds

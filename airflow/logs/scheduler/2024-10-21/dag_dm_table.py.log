@@ -1,0 +1,99 @@
+[2024-10-21T00:41:11.761+0000] {processor.py:186} INFO - Started process (PID=31) to work on /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:41:11.764+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
+[2024-10-21T00:41:11.768+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:11.767+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:41:13.325+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:41:13.665+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.664+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:create_update_dm_crypto_table
+[2024-10-21T00:41:13.700+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.700+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:create_update_dm_crypto_table
+[2024-10-21T00:41:13.715+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.713+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:create_update_dm_crypto_table
+[2024-10-21T00:41:13.734+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.733+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:create_update_dm_crypto_table
+[2024-10-21T00:41:13.753+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.752+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:create_update_dm_crypto_table
+[2024-10-21T00:41:13.765+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.765+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:create_update_dm_crypto_table
+[2024-10-21T00:41:13.772+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.772+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:create_update_dm_crypto_table
+[2024-10-21T00:41:13.774+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.773+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:41:13.792+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.791+0000] {dag.py:3262} INFO - Creating ORM DAG for create_update_dm_crypto_table
+[2024-10-21T00:41:13.823+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:13.822+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-21T00:41:13.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 2.110 seconds
+[2024-10-21T00:41:44.037+0000] {processor.py:186} INFO - Started process (PID=42) to work on /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:41:44.039+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
+[2024-10-21T00:41:44.057+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:44.055+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:41:44.436+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:41:44.450+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:44.450+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:41:44.461+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:41:44.461+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-21T00:41:44.469+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.442 seconds
+[2024-10-21T00:42:14.822+0000] {processor.py:186} INFO - Started process (PID=54) to work on /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:42:14.823+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
+[2024-10-21T00:42:14.827+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:42:14.826+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:42:15.339+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:42:15.372+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:42:15.371+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:42:15.385+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:42:15.385+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-21T00:42:15.396+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.581 seconds
+[2024-10-21T00:42:46.151+0000] {processor.py:186} INFO - Started process (PID=66) to work on /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:42:46.155+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
+[2024-10-21T00:42:46.158+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:42:46.157+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:42:46.548+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:42:46.562+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:42:46.562+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:42:46.575+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:42:46.575+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-21T00:42:46.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.439 seconds
+[2024-10-21T00:43:16.998+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:43:17.001+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
+[2024-10-21T00:43:17.008+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:43:17.007+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:43:17.705+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:43:17.721+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:43:17.721+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:43:17.735+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:43:17.734+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-20 00:00:00+00:00, run_after=2024-10-21 00:00:00+00:00
+[2024-10-21T00:43:17.743+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.755 seconds
+[2024-10-21T00:43:48.100+0000] {processor.py:186} INFO - Started process (PID=89) to work on /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:43:48.102+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
+[2024-10-21T00:43:48.107+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:43:48.106+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:43:48.510+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:43:48.524+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:43:48.524+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:43:48.547+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:43:48.546+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-21 00:00:00+00:00, run_after=2024-10-22 00:00:00+00:00
+[2024-10-21T00:43:48.556+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.466 seconds
+[2024-10-21T00:44:18.901+0000] {processor.py:186} INFO - Started process (PID=101) to work on /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:44:18.903+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
+[2024-10-21T00:44:18.906+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:44:18.906+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:44:19.374+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:44:19.406+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:44:19.406+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:44:19.428+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:44:19.428+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-21 00:00:00+00:00, run_after=2024-10-22 00:00:00+00:00
+[2024-10-21T00:44:19.444+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.550 seconds
+[2024-10-21T00:44:49.868+0000] {processor.py:186} INFO - Started process (PID=113) to work on /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:44:49.870+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
+[2024-10-21T00:44:49.879+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:44:49.876+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:44:50.303+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:44:50.318+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:44:50.318+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:44:50.330+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:44:50.330+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-21 00:00:00+00:00, run_after=2024-10-22 00:00:00+00:00
+[2024-10-21T00:44:50.338+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.481 seconds
+[2024-10-21T00:45:20.933+0000] {processor.py:186} INFO - Started process (PID=125) to work on /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:45:20.935+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
+[2024-10-21T00:45:20.939+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:45:20.938+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:45:21.430+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:45:21.442+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:45:21.442+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:45:21.455+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:45:21.454+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-21 00:00:00+00:00, run_after=2024-10-22 00:00:00+00:00
+[2024-10-21T00:45:21.464+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.538 seconds
+[2024-10-21T00:45:51.905+0000] {processor.py:186} INFO - Started process (PID=137) to work on /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:45:51.907+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
+[2024-10-21T00:45:51.913+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:45:51.913+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:45:52.462+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:45:52.476+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:45:52.476+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:45:52.490+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:45:52.490+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-21 00:00:00+00:00, run_after=2024-10-22 00:00:00+00:00
+[2024-10-21T00:45:52.499+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.609 seconds
+[2024-10-21T00:46:23.040+0000] {processor.py:186} INFO - Started process (PID=148) to work on /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:46:23.043+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
+[2024-10-21T00:46:23.050+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:46:23.049+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:46:23.564+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:46:23.582+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:46:23.581+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:46:23.601+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:46:23.601+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-21 00:00:00+00:00, run_after=2024-10-22 00:00:00+00:00
+[2024-10-21T00:46:23.616+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.593 seconds
+[2024-10-21T00:46:54.025+0000] {processor.py:186} INFO - Started process (PID=160) to work on /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:46:54.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
+[2024-10-21T00:46:54.031+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:46:54.030+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:46:55.335+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:46:55.382+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:46:55.382+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:46:55.403+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:46:55.403+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-21 00:00:00+00:00, run_after=2024-10-22 00:00:00+00:00
+[2024-10-21T00:46:55.425+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 1.408 seconds
+[2024-10-21T00:47:25.937+0000] {processor.py:186} INFO - Started process (PID=171) to work on /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:47:25.939+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_dm_table.py for tasks to queue
+[2024-10-21T00:47:25.944+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:47:25.943+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:47:26.645+0000] {processor.py:925} INFO - DAG(s) 'create_update_dm_crypto_table' retrieved from /opt/airflow/dags/dag_dm_table.py
+[2024-10-21T00:47:26.661+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:47:26.661+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-21T00:47:26.675+0000] {logging_mixin.py:190} INFO - [2024-10-21T00:47:26.675+0000] {dag.py:4180} INFO - Setting next_dagrun for create_update_dm_crypto_table to 2024-10-21 00:00:00+00:00, run_after=2024-10-22 00:00:00+00:00
+[2024-10-21T00:47:26.685+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_dm_table.py took 0.759 seconds
