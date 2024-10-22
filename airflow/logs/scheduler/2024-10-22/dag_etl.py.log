@@ -250,3 +250,17 @@
 [2024-10-22T01:54:59.208+0000] {logging_mixin.py:190} INFO - [2024-10-22T01:54:59.207+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-10-22T01:54:59.249+0000] {logging_mixin.py:190} INFO - [2024-10-22T01:54:59.249+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_crypto_pipeline to 2024-10-22 00:00:00+00:00, run_after=2024-10-23 00:00:00+00:00
 [2024-10-22T01:54:59.277+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl.py took 0.972 seconds
+[2024-10-22T01:55:29.886+0000] {processor.py:186} INFO - Started process (PID=1071) to work on /opt/airflow/dags/dag_etl.py
+[2024-10-22T01:55:29.891+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl.py for tasks to queue
+[2024-10-22T01:55:29.897+0000] {logging_mixin.py:190} INFO - [2024-10-22T01:55:29.896+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl.py
+[2024-10-22T01:55:30.437+0000] {processor.py:925} INFO - DAG(s) 'etl_crypto_pipeline' retrieved from /opt/airflow/dags/dag_etl.py
+[2024-10-22T01:55:30.481+0000] {logging_mixin.py:190} INFO - [2024-10-22T01:55:30.481+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T01:55:30.501+0000] {logging_mixin.py:190} INFO - [2024-10-22T01:55:30.501+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_crypto_pipeline to 2024-10-22 00:00:00+00:00, run_after=2024-10-23 00:00:00+00:00
+[2024-10-22T01:55:30.514+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl.py took 0.718 seconds
+[2024-10-22T01:56:01.016+0000] {processor.py:186} INFO - Started process (PID=1079) to work on /opt/airflow/dags/dag_etl.py
+[2024-10-22T01:56:01.019+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl.py for tasks to queue
+[2024-10-22T01:56:01.022+0000] {logging_mixin.py:190} INFO - [2024-10-22T01:56:01.021+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl.py
+[2024-10-22T01:56:01.409+0000] {processor.py:925} INFO - DAG(s) 'etl_crypto_pipeline' retrieved from /opt/airflow/dags/dag_etl.py
+[2024-10-22T01:56:01.440+0000] {logging_mixin.py:190} INFO - [2024-10-22T01:56:01.439+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-22T01:56:01.463+0000] {logging_mixin.py:190} INFO - [2024-10-22T01:56:01.463+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_crypto_pipeline to 2024-10-22 00:00:00+00:00, run_after=2024-10-23 00:00:00+00:00
+[2024-10-22T01:56:01.481+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl.py took 0.491 seconds
