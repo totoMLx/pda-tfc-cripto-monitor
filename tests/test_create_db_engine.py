@@ -1,30 +1,31 @@
 import unittest
 from unittest.mock import patch, MagicMock
 from sqlalchemy.engine import Engine
-import sys
 import os
-
-# Añadir el directorio 'scripts' al Python path
+import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), '../airflow/scripts'))
-import utils
+import utils 
+
 
 class TestCreateDbEngine(unittest.TestCase):
 
-    def setUp(self):
-        self.mock_engine = MagicMock(spec=Engine)
+    @patch('utils.create_engine')
+    @patch.dict(os.environ, {
+    'REDSHIFT_USER': 'user',
+    'REDSHIFT_PASSWORD': 'password',
+    'REDSHIFT_HOST': 'localhost',
+    'REDSHIFT_PORT': '5439',
+    'REDSHIFT_DB': 'testdb'
+    })  # Simula las variables de entorno
+    def test_create_db_engine(self, mock_create_engine):
+        """Test que verifica la creación del engine de base de datos."""
+        mock_engine = MagicMock(spec=Engine)
+        mock_create_engine.return_value = mock_engine
 
-    @patch('utils.create_engine')  # Aquí cambiamos el patch a SQLAlchemy's create_engine
-    @patch('utils.get_env_variable')
-    def test_create_db_engine(self, mock_get_env_variable, mock_create_engine):
-        # Configurar los valores de retorno del mock de las variables de entorno
-        mock_get_env_variable.side_effect = ['user', 'pass', 'host', '5439', 'db']
-
-        # Llamar a la función que queremos probar
         engine = utils.create_db_engine()
-
-        # Verificar que la función `create_engine` fue llamada correctamente
+        self.assertEqual(engine, mock_engine)
         mock_create_engine.assert_called_once_with(
-            'postgresql://user:pass@host:5439/db'
+            "postgresql://user:password@localhost:5439/testdb"
         )
 
 if __name__ == '__main__':
