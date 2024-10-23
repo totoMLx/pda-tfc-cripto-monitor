@@ -1,0 +1,1 @@
+crypto_ids = {'BTC':'1', 'ETH':'1027', 'DOGE':'74'}

@@ -1,52 +1,14 @@
 import pandas as pd
-import requests
 from datetime import datetime
-from utils import get_env_variable, create_db_engine, create_append_to_table
-#from dotenv import load_dotenv
-#load_dotenv()
+from utils import get_env_variable, create_db_engine, create_append_to_table, get_crypto_data, get_dolar_price, get_crypto_price
+from config import crypto_ids
 
 
-def get_crypto_symbols(ninja_key):
-    """Obtener todos los simbolos de los criptoactivos desde la API de Ninja"""
-    symbols_url = 'https://api.api-ninjas.com/v1/cryptosymbols'
-    try:
-        response = requests.get(symbols_url, headers={'X-Api-Key': ninja_key})
-        response.raise_for_status()  # Lanza excepción si hay error HTTP
-        return response.json().get('symbols', [])
-    except requests.exceptions.RequestException as e:
-        print(f"Error al obtener los símbolos: {e}")
-        return []
-
-def get_crypto_price(ninja_key, symbol):
-    """Obtener el precio actual de cada criptoactivo por símbolo"""
-    price_url = f'https://api.api-ninjas.com/v1/cryptoprice?symbol={symbol}'
-    try:
-        response = requests.get(price_url, headers={'X-Api-Key': ninja_key})
-        response.raise_for_status()
-        data = response.json()
-        return data.get('symbol'), data.get('price')
-    except requests.exceptions.RequestException as e:
-        print(f"Error al obtener el precio para {symbol}: {e}")
-        return symbol, None
-
-def get_dolar_price():
-    """API para obtener el precio del dolar blue al momento de la consulta"""
-    try:
-        response = requests.get("https://dolarapi.com/v1/dolares/blue")
-        return response.json()
-    except requests.exceptions.RequestException as e:
-        print(f"Error al obtener valor dolar: {e}")
-        return None
+def extract_crypto_data():
     
-
-def insert_crypto_data():
-    engine = create_db_engine()
     """Insertar precios de criptoactivos en la tabla histórica"""
     ninja_key = get_env_variable('NINJA_API_KEY')
-    # Debido a limitaciones en la cantidad de api calls que tenemos, lo restringimos a traernos unicamente el precio de BTC, ETH y DOGE
-    # symbols = get_crypto_symbols(ninja_key)
     
-    symbols = ['BTCUSDT', 'ETHUSDT', 'DOGEUSDT']
     valor_dolar = get_dolar_price()
 
     filtered_data = {
@@ -56,37 +18,111 @@ def insert_crypto_data():
     'fecha': valor_dolar['fechaActualizacion']
     }
     
-    # Convertir el diccionario filtrado en un DataFrame de una fila
     dolar_prices = pd.DataFrame([filtered_data])
-    print(dolar_prices)
-    create_append_to_table(dolar_prices, 'dolar_prices', engine, '2024_tomas_fernando_campi_schema')
-
+    ## Guardar el DataFrame en formato Parquet para levantarlo despues en el transform
+    dolar_prices.to_parquet('/opt/airflow/data/dolar_prices.parquet', index=False, engine='pyarrow')
+    print('Dolar prices saved to parquet')
     
-    crypto_prices = pd.DataFrame(columns=['symbol', 'price_USD', 'price_pesos', 'date'])
-    crypto_prices['symbol'] = symbols
+    ## Extraemos precios de las criptos
+    crypto_prices = pd.DataFrame(columns=['symbol','crypto_id', 'price_USD', 'date'])
+    symbolsusdt = [symbol+'USDT' for symbol in crypto_ids]
+    crypto_prices['symbol'] = symbolsusdt
+    crypto_prices['crypto_id'] = list(crypto_ids.values())
+    today_date = datetime.now()
+    date_str = today_date.strftime('%Y-%m-%d %H:%M:%S')
 
     for row in range(len(crypto_prices)):
         symbol = crypto_prices['symbol'][row]
         symbol_check, price = get_crypto_price(ninja_key, symbol)
-        today_date = datetime.now()
-        date_str = today_date.strftime('%Y-%m-%d %H:%M:%S')
         
         if symbol_check == symbol:
-            print(symbol)
             crypto_prices.at[row, 'price_USD'] = round(float(price), 3)
-            crypto_prices.at[row, 'price_pesos'] = round(float(price)*int(filtered_data['venta']),2)
         else:
             crypto_prices.at[row, 'price_USD'] = -1  # Si hay error, precio -1
-            crypto_prices.at[row, 'price_pesos'] = -1
             
         crypto_prices.at[row, 'date'] = date_str
+        
+    ## Guardamos como parquet para levantarlo despues en el transform
+    crypto_prices.to_parquet('/opt/airflow/data/crypto_prices.parquet', index=False, engine='pyarrow')
+    print('Crypto prices saved to parquet')
     
-    create_append_to_table(crypto_prices, 'crypto_prices', engine, '2024_tomas_fernando_campi_schema')
+    ## Extraemos data de las 3 cryptos
+    cmc_key = get_env_variable('CMC_API_KEY')
+    crypto_data = pd.DataFrame(columns=['id','symbol','date','market_cap','cmc_dominance', 'cmc_rank', 'is_fiat'])
+    crypto_data['id'] = list(crypto_ids.values())
+    crypto_data['symbol'] = list(crypto_ids.keys())
+    
+    for row in range(len(crypto_data)):
+        id = crypto_data['id'][row]
+        data = get_crypto_data(cmc_key, id)
+        
+        market_cap = data['data'][id]['quote']['USD']['market_cap']
+        cmc_dominance = data['data'][id]['quote']['USD']['market_cap_dominance']
+        cmc_rank = data['data'][id]['cmc_rank']
+        is_fiat = data['data'][id]['is_fiat']
+        
+        crypto_data.at[row, 'market_cap'] = market_cap
+        crypto_data.at[row, 'cmc_dominance'] = cmc_dominance
+        crypto_data.at[row, 'cmc_rank'] = cmc_rank
+        crypto_data.at[row, 'is_fiat'] = is_fiat
+        crypto_data.at[row, 'date'] = date_str
+        
+    ## Guardamos como parquet para levantarlo despues en el transform
+    crypto_data.to_parquet('/opt/airflow/data/crypto_data.parquet', index=False, engine='pyarrow')    
+    print('Crypto data saved to parquet')
+   
 
 
-#if __name__ == '__main__':
-#    try:
-#       engine = create_db_engine()
-#        insert_crypto_data(engine)
-#    except Exception as e:
-#        print(f"Error en la ejecución principal: {e}")
+def transform_load_crypto_data():
+    engine = create_db_engine()
+    
+    # transform and load dolar data
+    dolar_prices = pd.read_parquet('/opt/airflow/data/dolar_prices.parquet')
+    create_append_to_table(dolar_prices, 'bt_dolar_prices', engine, '2024_tomas_fernando_campi_schema')
+    print('Dolar prices sent to DB')
+    
+    # transform and load crypto prices
+    crypto_prices = pd.read_parquet('/opt/airflow/data/crypto_prices.parquet')
+    valor_dolar = dolar_prices['venta'][0]
+    crypto_prices['price_pesos'] = crypto_prices['price_USD']*int(valor_dolar)
+    create_append_to_table(crypto_prices, 'bt_crypto_prices', engine, '2024_tomas_fernando_campi_schema')
+    print('Crypto prices sent to DB')
+    
+    # transform and load crypto data
+    crypto_data = pd.read_parquet('/opt/airflow/data/crypto_data.parquet')   
+    create_append_to_table(crypto_data, 'lk_crypto_data', engine, '2024_tomas_fernando_campi_schema')
+    print('Crypto data sent to DB')
+
+
+def create_update_dm_crypto_table():
+    engine = create_db_engine()
+
+    query = """
+    CREATE TABLE dm_crypto_daily_information as
+    with stg as(
+    select
+        row_number() over(partition by cp.crypto_id order by cp.date DESC) as rank,
+        cp.crypto_id,
+        cd.symbol,
+        cp.price_usd,
+        cp.price_pesos,
+        cd.market_cap,
+        cd.cmc_dominance,
+        cd.cmc_rank,
+        cd.is_fiat AS fiat_flag,
+        cp.date AS update_date
+    FROM "2024_tomas_fernando_campi_schema".bt_crypto_prices cp
+    LEFT JOIN "2024_tomas_fernando_campi_schema".lk_crypto_data cd ON cd.id = cp.crypto_id and cast(cd.date as date) = cast(cp.date as date)
+    )
+    select 
+    *
+    from stg 
+    where rank=1
+    order by cmc_rank asc;
+    """
+    
+    connection = engine.connect()
+    connection.execute("DROP TABLE IF EXISTS dm_crypto_daily_information")
+    print('Table dm_crypto_daily_information dropped')
+    connection.execute(query) #Crecion de tabla data mart con info del dia de las criptos 
+    print('Table dm_crypto_daily_information created successfuly')

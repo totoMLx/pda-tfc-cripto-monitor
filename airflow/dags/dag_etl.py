@@ -3,12 +3,11 @@ from airflow.operators.python_operator import PythonOperator
 from datetime import datetime, timedelta
 import sys
 import os
-
-# Ensuring the scripts directory is in the path so that our module can be imported
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'scripts'))
 
-from etl import insert_crypto_data  # Import the function
+from etl import extract_crypto_data, transform_load_crypto_data, create_update_dm_crypto_table
 
+# Argumentos por defecto del DAG
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
@@ -19,18 +18,35 @@ default_args = {
     'retry_delay': timedelta(minutes=5),
 }
 
+# Definimos el DAG unificado
 dag = DAG(
-    'insert_crypto_data_redshift',
+    'etl_crypto_pipeline',
     default_args=default_args,
-    description='DAG que envia la informacion sobre los distintos cripto activos del dia a redshift',
+    description='Pipeline completo para extraer, transformar y cargar datos de criptoactivos',
     schedule_interval='@daily',
-    catchup=False
+    catchup=False,
 )
 
-send_data = PythonOperator(
-    task_id='insert_crypto_data_redshift',
-    python_callable=insert_crypto_data,
+# Tarea 1: Extracción de datos
+extract_task = PythonOperator(
+    task_id='extract_crypto_data',
+    python_callable=extract_crypto_data,
     dag=dag,
 )
 
-send_data
+# Tarea 2: Transformación y carga de datos
+transform_load_task = PythonOperator(
+    task_id='transform_load_crypto_data',
+    python_callable=transform_load_crypto_data,
+    dag=dag,
+)
+
+# Tarea 3: Crear/Actualizar la tabla data mart
+create_update_task = PythonOperator(
+    task_id='create_update_dm_crypto_table',
+    python_callable=create_update_dm_crypto_table,
+    dag=dag,
+)
+
+# Definimos las dependencias para ejecutar las tareas en secuencia
+extract_task >> transform_load_task >> create_update_task
