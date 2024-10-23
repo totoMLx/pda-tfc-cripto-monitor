@@ -4,6 +4,7 @@
 ## Descripción
 
 El objetivo principal del proyecto es crear un ETL a partir de APIs OpenSource (api-ninjas, dolarapiy coinmarketcap api). El mismo consume data tanto de los precios de cripto activos, informacion de los activos y el valor del dolar blue. El resultado del proyecto son cuatro tablas que se actualizan diariamente (cuando el proceso se encuentra encendido):
+
     1. bt_crypto_prices: la misma tiene los valores de varios cripto activos en USD y en pesos argentinos. El proceso esta hecho para obtener los precios de una gran variedad de cripto activos pero por cuestiones de quota de la API, esta limitado unicamente a traer los de BTC, ETH y DOGE.
     2. bt_dolar_prices: tabla que contiene los valores historicos del dolar (tipo de cambio blue). Cada vez que se realiza una consulta para el precio de algun cripto activo, se actualiza el valor del dolar en esta tabla. La misma permite tener un registro de la variacion del precio a lo largo del tiempo para, en caso de ser deseado, consultar el valor en pesos de cada cripto activo en x momento en el tiempo.
     3. lk_crypto_data: la misma contiene informacion de cada una de las criptos al dia de la fecha. En la tabla se encuentran los siguientes campos: 
